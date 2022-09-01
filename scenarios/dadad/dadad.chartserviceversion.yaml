@@ -1,0 +1,34 @@
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  annotations:
+    categories: ""
+    chartDescription: ""
+    createdAt: ""
+    repository: ""
+    support: ""
+    vendor: ""
+  name: dadad
+  version: ""
+packageInfo:
+  experiments: null
+  packageName: ""
+spec:
+  categoryDescription: adadad
+  chaosExpCRDLink: ""
+  chaosType: ""
+  displayName: dadad chaos
+  experiments:
+  - description: This chaos scenario consists of pod-delete-wmw experiment
+    name: pod-delete-wmw
+  - description: This chaos scenario consists of pod-network-loss-19h experiment
+    name: pod-network-loss-19h
+  keywords: []
+  links: null
+  maintainers: null
+  maturity: ""
+  minKubeVersion: ""
+  platforms: null
+  provider:
+    name: ""
+  scenarios: null
