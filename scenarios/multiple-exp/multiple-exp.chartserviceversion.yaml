@@ -1,0 +1,38 @@
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  annotations:
+    categories: ""
+    chartDescription: ""
+    createdAt: ""
+    repository: ""
+    support: ""
+    vendor: ""
+  name: multiple-exp
+  version: ""
+packageInfo:
+  experiments: null
+  packageName: ""
+spec:
+  categoryDescription: demo
+  chaosExpCRDLink: ""
+  chaosType: ""
+  displayName: multiple-exp chaos
+  experiments:
+  - description: This chaos scenario consists of ecs-container-cpu-hog-y4f experiment
+    name: ecs-container-cpu-hog-y4f
+  - description: This chaos scenario consists of aws-ssm-chaos-by-tag-05j experiment
+    name: aws-ssm-chaos-by-tag-05j
+  - description: This chaos scenario consists of ec2-stop-by-tag-27i experiment
+    name: ec2-stop-by-tag-27i
+  - description: This chaos scenario consists of gcp-vm-disk-loss-58t experiment
+    name: gcp-vm-disk-loss-58t
+  keywords: []
+  links: null
+  maintainers: null
+  maturity: ""
+  minKubeVersion: ""
+  platforms: null
+  provider:
+    name: ""
+  scenarios: null
