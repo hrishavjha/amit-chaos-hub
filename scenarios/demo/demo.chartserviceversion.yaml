@@ -1,0 +1,33 @@
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  annotations:
+    categories: ""
+    chartDescription: ""
+    createdAt: ""
+    repository: ""
+    support: ""
+    vendor: ""
+  name: demo
+  version: ""
+packageInfo:
+  experiments: null
+  packageName: ""
+spec:
+  categoryDescription: huh
+  chaosExpCRDLink: ""
+  chaosType: ""
+  displayName: demo chaos
+  experiments:
+  - description: This chaos scenario consists of disk-fill-kcn experiment
+    name: disk-fill-kcn
+  keywords:
+  - dadad
+  links: null
+  maintainers: null
+  maturity: ""
+  minKubeVersion: ""
+  platforms: null
+  provider:
+    name: ""
+  scenarios: null
