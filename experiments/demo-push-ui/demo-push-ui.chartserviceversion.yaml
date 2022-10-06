@@ -1,0 +1,36 @@
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  annotations:
+    categories: ""
+    chartDescription: ""
+    createdAt: ""
+    repository: ""
+    support: ""
+    vendor: ""
+  name: demo-push-ui
+  version: ""
+packageInfo:
+  experiments: null
+  packageName: ""
+spec:
+  categoryDescription: ""
+  chaosExpCRDLink: ""
+  chaosType: ""
+  displayName: demo-push-ui chaos
+  experiments:
+  - description: ""
+    name: pod-network-latency-bt1
+  keywords:
+  - demo
+  - deomo1
+  links: null
+  maintainers:
+  - email: ""
+    name: Harness
+  maturity: ""
+  minKubeVersion: ""
+  platforms: null
+  provider:
+    name: ""
+  scenarios: null
