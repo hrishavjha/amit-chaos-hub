@@ -8,13 +8,13 @@ metadata:
     repository: ""
     support: ""
     vendor: ""
-  name: a
+  name: A
   version: ""
 packageInfo:
   experiments: null
   packageName: ""
 spec:
-  displayName: a-chaos
+  displayName: A-chaos
   faults:
   - description: ""
     name: pod-network-loss-nyb
