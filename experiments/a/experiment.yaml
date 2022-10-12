@@ -5,7 +5,7 @@ metadata:
   labels:
     agent_id: 3eb0f48b-e228-4b9a-a3e6-4c3ec3ef3850
     revision_id: 5affcc9d-c064-44e0-b3d6-5bf74b6bf64f
-  name: A
+  name: a
   namespace: litmus
 spec:
   arguments:
