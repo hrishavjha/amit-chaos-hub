@@ -14,7 +14,6 @@ packageInfo:
   experiments: null
   packageName: ""
 spec:
-  categoryDescription: add
   displayName: dadad-chaos
   faults:
   - description: ""
