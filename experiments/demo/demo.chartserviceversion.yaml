@@ -1,0 +1,25 @@
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  annotations:
+    categories: ""
+    chartDescription: ""
+    createdAt: ""
+    repository: ""
+    support: ""
+    vendor: ""
+  name: demo
+packageInfo:
+  experiments: null
+  packageName: ""
+spec:
+  categoryDescription: ""
+  displayName: demo-chaos
+  experiments: null
+  faults:
+  - description: ""
+    name: pod-network-loss-nyb
+  keywords: []
+  provider:
+    name: ""
+  scenarios: null
