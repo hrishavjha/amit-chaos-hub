@@ -1,0 +1,27 @@
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  annotations:
+    categories: ""
+    chartDescription: ""
+    createdAt: ""
+    repository: ""
+    support: ""
+    vendor: ""
+  name: testing-push-1
+packageInfo:
+  experiments: null
+  packageName: ""
+spec:
+  categoryDescription: Hello-World
+  displayName: testing-push-1-chaos
+  experiments: null
+  faults:
+  - description: ""
+    name: pod-delete-o2z
+  keywords:
+  - hello
+  - world
+  provider:
+    name: ""
+  scenarios: null
