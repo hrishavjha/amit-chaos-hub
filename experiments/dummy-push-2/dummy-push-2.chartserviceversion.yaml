@@ -1,0 +1,23 @@
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  annotations: {}
+  name: dummy-push-2
+packageInfo:
+  experiments: null
+  packageName: ""
+spec:
+  categoryDescription: ""
+  displayName: dummy-push-2-chaos
+  experiments: null
+  faults:
+  - description: ""
+    name: pod-delete-krb
+  - description: ""
+    name: pod-network-loss-kg7
+  - description: ""
+    name: pod-network-duplication-7cc
+  keywords: []
+  provider:
+    name: ""
+  scenarios: null
