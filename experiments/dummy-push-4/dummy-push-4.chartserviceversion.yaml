@@ -1,0 +1,24 @@
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  annotations: {}
+  name: dummy-push-4
+packageInfo: {}
+spec:
+  categoryDescription: ""
+  displayName: dummy-push-4-chaos
+  faults:
+  - description: ""
+    name: pod-delete-krb
+  - description: ""
+    name: pod-network-loss-kg7
+  - description: ""
+    name: pod-network-duplication-7cc
+  keywords:
+  - demo
+  - push
+  - hub
+  - pod
+  provider:
+    name: ""
+  scenarios: null
