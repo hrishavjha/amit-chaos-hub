@@ -1,0 +1,23 @@
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  annotations:
+    chartDescription: test workflow with dummy description
+  name: push-with-description
+packageInfo: {}
+spec:
+  categoryDescription: test workflow with dummy description
+  displayName: push-with-description-chaos
+  faults:
+  - description: ""
+    name: pod-delete-9i1
+  - description: ""
+    name: pod-cpu-hog-u48
+  keywords:
+  - test
+  - demo
+  - dummy
+  - workflow
+  provider:
+    name: ""
+  scenarios: null
