@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     infra_id: e579f885-80ad-45b3-b235-54fa4495f21b
-    revision_id: 12686c96-497e-47c7-9037-d185ce1a0e55
+    revision_id: 639e3cf9-e345-4da4-a8b6-7baffa733831
     workflow_id: b7b51382-810b-444b-88f0-74d9450440b1
     workflows.argoproj.io/controller-instanceid: e579f885-80ad-45b3-b235-54fa4495f21b
   name: test-gitops-fix
@@ -252,13 +252,13 @@ spec:
                     components:
                       env:
                         - name: TOTAL_CHAOS_DURATION
-                          value: "15"
+                          value: "60"
                         - name: RAMP_TIME
                           value: ""
                         - name: FORCE
                           value: "true"
                         - name: CHAOS_INTERVAL
-                          value: "5"
+                          value: "10"
                         - name: PODS_AFFECTED_PERC
                           value: ""
                         - name: TARGET_CONTAINER
