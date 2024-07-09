@@ -1,7 +1,10 @@
 probes:
-  - name: http-rev-name
-    infraType: Kubernetes
-    type: httpProbe
-  - name: linux-header-test
-    infraType: Linux
-    type: httpProbe
+- infraType: Kubernetes
+  name: http-rev-name
+  type: httpProbe
+- infraType: Linux
+  name: linux-header-test
+  type: httpProbe
+- infraType: Kubernetes
+  name: amit-push-probe
+  type: httpProbe
