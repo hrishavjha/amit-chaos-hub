@@ -1,0 +1,7 @@
+probes:
+  - name: http-rev-name
+    infraType: Kubernetes
+    type: http
+  - name: linux-header-test
+    infraType: Linux
+    type: http
