@@ -5,6 +5,3 @@ probes:
 - infraType: Linux
   name: linux-header-test
   type: httpProbe
-- infraType: Kubernetes
-  name: amit-push-probe
-  type: httpProbe
