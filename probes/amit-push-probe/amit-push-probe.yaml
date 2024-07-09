@@ -1,1 +1,0 @@
-{"name":"amit-push-probe","type":"httpProbe","httpProbe/inputs":{"url":"https://google.com","method":{"get":{"criteria":"==","responseCode":"200"}}},"runProperties":{"probeTimeout":"10s","interval":"2s","attempt":2,"probePollingInterval":"2s"},"mode":"EOT"}
