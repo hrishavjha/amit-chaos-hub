@@ -8,3 +8,6 @@ probes:
 - infraType: Kubernetes
   name: amit-push-probe
   type: httpProbe
+- infraType: Kubernetes
+  name: amit-push-probe-1
+  type: httpProbe
