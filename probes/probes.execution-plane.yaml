@@ -1,7 +1,7 @@
 probes:
   - name: http-rev-name
     infraType: Kubernetes
-    type: http
+    type: httpProbe
   - name: linux-header-test
     infraType: Linux
-    type: http
+    type: httpProbe
