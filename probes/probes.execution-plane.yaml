@@ -2,11 +2,6 @@ probes:
 - infraType: Kubernetes
   name: http-rev-name
   type: httpProbe
-  description: This probe is kubernetes probe
-  tags:
-    - k8s
-    - http
-    - test
 - infraType: Linux
   name: linux-header-test
   type: httpProbe
@@ -22,3 +17,6 @@ probes:
 - infraType: Kubernetes
   name: amit-push-from-ui
   type: cmdProbe
+- infraType: Kubernetes
+  name: k8s-probe
+  type: k8sProbe
