@@ -1,0 +1,14 @@
+cmdProbe/inputs:
+  command: ./healthcheck
+  comparator:
+    criteria: ==
+    type: float
+    value: "200"
+mode: Continuous
+name: amit-push-from-ui
+runProperties:
+  attempt: 2
+  interval: 2s
+  probePollingInterval: 2s
+  probeTimeout: 10s
+type: cmdProbe
