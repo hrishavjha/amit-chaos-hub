@@ -11,3 +11,6 @@ probes:
 - infraType: Kubernetes
   name: amit-push-probe-1
   type: httpProbe
+- infraType: Kubernetes
+  name: amit-cmd-probe
+  type: cmdProbe
