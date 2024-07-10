@@ -1,0 +1,15 @@
+k8sProbe/inputs:
+  group: appv1
+  namespace: hce
+  operation: present
+  resource: Deployment
+  version: alpha
+mode: EOT
+name: k8s-probe-new
+runProperties:
+  attempt: 2
+  interval: 2s
+  probePollingInterval: 2s
+  probeTimeout: 10s
+  stopOnFailure: true
+type: k8sProbe

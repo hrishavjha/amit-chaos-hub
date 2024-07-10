@@ -20,3 +20,6 @@ probes:
 - infraType: Kubernetes
   name: k8s-probe
   type: k8sProbe
+- infraType: Kubernetes
+  name: k8s-probe-new
+  type: k8sProbe
