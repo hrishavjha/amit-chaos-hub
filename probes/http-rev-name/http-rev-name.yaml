@@ -4,8 +4,8 @@ httpProbe/inputs:
   url: test.com
   method:
     get:
-      criteria: “!=”
-      responseCode: ‘3’
+      criteria: "!="
+      responseCode: "3"
 runProperties:
   probeTimeout: 2s
   interval: 2s
