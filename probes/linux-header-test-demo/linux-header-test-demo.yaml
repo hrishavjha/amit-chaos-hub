@@ -1,0 +1,15 @@
+httpProbe/inputs:
+  headers:
+    “test1”: “value1"
+  method:
+    get:
+      criteria: “==”
+      responseCode: ‘200’
+  url: test.com
+mode: Continuous
+name: linux-header-test-demo
+runProperties:
+  attempt: 2
+  interval: 2s
+  probeTimeout: 2s
+type: httpProbe

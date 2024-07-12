@@ -23,3 +23,6 @@ probes:
 - infraType: Kubernetes
   name: k8s-probe-new
   type: k8sProbe
+- infraType: Linux
+  name: linux-header-test-demo
+  type: httpProbe
