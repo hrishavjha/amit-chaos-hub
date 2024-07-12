@@ -6,4 +6,6 @@ httpProbe/inputs:
     get:
       criteria: "!="
       responseCode: "3"
+  tlsConfig:
+    caFile: "ada"
 mode: Continuous
