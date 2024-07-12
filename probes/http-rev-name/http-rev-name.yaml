@@ -6,8 +6,4 @@ httpProbe/inputs:
     get:
       criteria: "!="
       responseCode: "3"
-runProperties:
-  probeTimeout: 2s
-  interval: 2s
-  attempt: 2
 mode: Continuous
