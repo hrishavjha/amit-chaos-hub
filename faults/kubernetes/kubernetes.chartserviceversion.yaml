@@ -14,13 +14,17 @@ spec:
     - name: pod-delete
       description: It injects pod-delete chaos in a Kubernetes pod.
       displayName: POD DELETE
+      chaosType: infra
     - name: container-kill
-      description: It injects container-kill chaos in a Kubernetes pod .
+      description: It injects container-kill chaos in a Kubernetes pod.
+      chaosType: infra
     - name: pod-cpu-hog
       displayName: HELLO WROLD
       description: It injects cpu-hog chaos in a Kubernetes pod.
+      chaosType: infra
     - name: pod-network-loss
       description: It injects network-loss chaos in a Kubernetes pod.
+      chaosType: infra
     - name: pod-network-latency
       description: It injects network-latency chaos in a Kubernetes pod.
     - name: pod-network-corruption
